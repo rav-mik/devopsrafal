@@ -20,4 +20,4 @@ jobs:
           registry: docker.io
           dockerfile: Dockerfile
           username: ravarb
-          password: ${{ secrets.DOCKER_PASS }}
+          password: ${{ secrets.DOCKER }}
